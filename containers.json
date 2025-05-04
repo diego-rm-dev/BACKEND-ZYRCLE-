@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cont_001",
+    "location": {
+      "lat": -34.603722,
+      "lon": -58.381592
+    },
+    "weight": 55.5,
+    "volume": 85.0,
+    "materials": [
+      "plastico"
+    ],
+    "name": "Green Valley - PET"
+  },
+  {
+    "id": "cont_002",
+    "location": {
+      "lat": -34.604001,
+      "lon": -58.3822
+    },
+    "weight": 40.3,
+    "volume": 70.0,
+    "materials": [
+      "papel"
+    ],
+    "name": "Green Valley - Papel"
+  },
+  {
+    "id": "cont_003",
+    "location": {
+      "lat": -34.605145,
+      "lon": -58.383001
+    },
+    "weight": 25.0,
+    "volume": 60.0,
+    "materials": [
+      "vidrio"
+    ],
+    "name": "Green Valley - Vidrio"
+  },
+  {
+    "id": "cont_004",
+    "location": {
+      "lat": -34.606245,
+      "lon": -58.38412
+    },
+    "weight": 12.8,
+    "volume": 40.0,
+    "materials": [
+      "metal"
+    ],
+    "name": "Green Valley - Metal"
+  },
+  {
+    "id": "cont_005",
+    "location": {
+      "lat": -34.607001,
+      "lon": -58.3856
+    },
+    "weight": 65.9,
+    "volume": 95.0,
+    "materials": [
+      "plastico",
+      "metal"
+    ],
+    "name": "Green Valley - Combinado"
+  }
+]
