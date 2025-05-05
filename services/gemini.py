@@ -1,6 +1,6 @@
 import requests 
 
-GEMINI_API_KEY = "AIzaSyDjzu830wkol2rF4H2KkwQj6V3ejCXIC-s"
+GEMINI_API_KEY = "token"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
 def optimize_route_with_gemini(containers, user_location):
