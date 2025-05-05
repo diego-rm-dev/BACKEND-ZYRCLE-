@@ -58,4 +58,17 @@ zyrcle-backend/
 - **`scan.py`**: Endpoints for container scanning (e.g., `/api/scan/{code}` to validate QR codes or manual codes).
 - **`stats.py`**: Endpoints for stats (e.g., `/api/stats/monthly` for material breakdown, CO₂ savings).
 - **`status.py`**: Endpoints for system health (e.g., `/api/status` to check backend availability).
+  
+## Custom Avalanche L1 for Traceability
 
+Zyrcle implements a custom Avalanche L1 blockchain to ensure transparent and traceable recycling transactions. This L1, identified as `P-fuji14hfxjszw7dsyh7ftyv5htyzfkv9msn5jrceppy`, was deployed using the [Avalanche L1 Launcher](https://build.avax.network/tools/l1-launcher). Running on the Fuji testnet, this blockchain records all recycling events, such as container scans, material deposits, and token rewards, providing an immutable ledger for stakeholders (residents, collectors, validators) to track the lifecycle of recycled materials.
+
+### Traceability Features
+
+- **Immutable Records**: Every recycling transaction (e.g., material weight, CO₂ savings, token issuance) is logged on the L1, ensuring transparency.
+- **Validator Consensus**: A dynamic subset of validators, managed via the L1, achieves consensus on transaction states, enhancing security.
+- **Interoperability**: The L1 syncs with Avalanche’s Primary Network P-Chain for seamless integration with other Avalanche blockchains.
+
+### Verify Traceability
+
+You can explore and verify transactions on our custom L1 using the [Avalanche L1 Explorer](https://subnets.avax.network). Search for the blockchain ID `P-fuji14hfxjszw7dsyh7ftyv5htyzfkv9msn5jrceppy` to view transactions, addresses, and statistics related to Zyrcle’s recycling activities.
